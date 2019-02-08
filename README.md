@@ -28,7 +28,7 @@ A description of the dataset and its possible applications (on top of fueling th
 }  
 ```
 
-The Jupyter notebook used to analyze the dataset and to produce the statistics and the plots shown in the paper can be found [[notebooks|here]].
+The Jupyter notebook used to analyze the dataset and to produce the statistics and the plots shown in the paper can be found [here](notebooks).
 
 ## Motivation
 
