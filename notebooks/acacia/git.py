@@ -168,7 +168,7 @@ def clone_repo(url, output_folder, input_file=None, proxy=None, shallow=False, s
     else:
         os.makedirs('%s' % repo_folder)
 
-    # print('Cloning %s' % url)
+    print('Processing %s' % url)
 
     try:
         sh.git.init( _cwd=repo_folder)
