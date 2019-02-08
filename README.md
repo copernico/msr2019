@@ -12,9 +12,23 @@ For each security vulnerability, the knowledge base comprises the following info
 
 Using the `patch-analyzer`, one of the components of the vulnerability assessment tool, this information is processed and eventually imported into a PostgrSQL database used for the actual analysis of Java and Python applications. Please refer to the [tutorial](https://sap.github.io/vulnerability-assessment-tool/vuln_db/tutorials/vuln_db_tutorial/) and [manual](https://sap.github.io/vulnerability-assessment-tool/vuln_db/) of the vulnerability assessment tool explaining how to perform the import. 
 
-A more comprehensive description of the dataset and possible applications (on top of fueling the vulerability assessment tool) can be found in the following scientific paper, please cite if you use the dataset for your research work:
+**MSR 2019 DATA SHOWCASE SUBMISSION**
+
+A description of the dataset and its possible applications (on top of fueling the vulerability assessment tool) can be found in the following paper, please cite it if you use the dataset for your research work:
 
   - Serena E. Ponta, Henrik Plate, Antonino Sabetta, Michele Bezzi, Cédric Dangremont, [A Manually-Curated Dataset of Fixes to Vulnerabilities of Open-Source Software](http://arxiv.org/abs/1902.02595)
+
+```
+@MISC{ponta2019dataset,
+  author={Serena E. Ponta and Henrik Plate and Antonino Sabetta and Michele Bezzi and C\'edric Dangremont},
+  url={https://arxiv.org/pdf/1902.02595.pdf},
+  title={A Manually-Curated Dataset of Fixes to Vulnerabilities of Open-Source Software},
+  year={2019},
+  month={February},
+}  
+```
+
+The Jupyter notebook used to analyze the dataset and to produce the statistics and the plots shown in the paper can be found [[notebooks|here]].
 
 ## Motivation
 
